@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "pattern": "jdk/",
+      "target": "tomcat-local/",
+      "props": "security=approved;signoff=stanleyf",
+      "flat": "false"
+    },
+    {
+      "pattern": "tomcat/",
+      "target": "tomcat-local/",
+      "props": "security=pending;signoff=stanleyf",
+      "flat" : "false"
+    }, 
+    {
+      "pattern": "helm", 
+      "target": "generic-local/helm",
+      "props": "security=approved;signoff=stanleyf", 
+      "flat": "true"
+    }
+  ]
+}
